@@ -1,4 +1,7 @@
-# Server name here 
+# Server name here
+[![Dependency Status](https://david-dm.org/blumoon/hapi-boilerplate.svg)](https://david-dm.org/blumoon/hapi-boilerplate)
+[![Known Vulnerabilities](https://snyk.io/test/github/blumoon/hapi-boilerplate/badge.svg)](https://snyk.io/test/github/blumoon/hapi-boilerplate)
+
 Server description here
 
 ### Development
