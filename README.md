@@ -2,7 +2,7 @@
 Server description here
 
 ### Development
-Put sensitive dev keys and local configs to `config.json` which is merged inside `config.js`. All keys must be on first level.
+Put sensitive dev keys and local configs to `/config.json` which is merged inside `/config.js`. All keys must be on first level.
 ```json
 {
   "awsAccessKeyId": "AWSACCESSKEYID",
