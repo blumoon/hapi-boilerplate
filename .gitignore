@@ -1,0 +1,9 @@
+*.lock
+*.log
+.idea
+.dropbox
+.DS_Store
+Thumbs.db
+config.json
+node_modules
+Icon?

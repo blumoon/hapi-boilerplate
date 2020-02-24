@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/@x0/blumoon-"
+  },
+  "dependencies": {
+    "@x0/blumoon-": "*"
+  }
+}

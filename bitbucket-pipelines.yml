@@ -1,0 +1,11 @@
+image: node:12
+
+pipelines:
+  default:
+    - step:
+        script:
+          - printf "//`node -p \"require('url').parse(process.env.NPM_REGISTRY_URL || 'https://registry.npmjs.org').host\"`/:_authToken=${NPM_TOKEN}\nregistry=${NPM_REGISTRY_URL:-https://registry.npmjs.org}\n" >> ~/.npmrc
+          - node --version
+          - npm --version
+          - npm install
+          - npm test

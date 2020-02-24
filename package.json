@@ -1,0 +1,30 @@
+{
+  "name": "@x0/blumoon-",
+  "version": "0.0.1-dev",
+  "dependencies": {
+    "@hapi/crumb": "8.x",
+    "@hapi/hapi": "19.x",
+    "@hapi/boom": "9.x",
+    "@hapi/joi": "17.x",
+    "@hapi/good": "9.x",
+    "@hapi/good-squeeze": "6.x",
+    "@hapi/good-console": "9.x"
+  },
+  "devDependencies": {
+    "@hapi/lab": "22.x",
+    "@hapi/code": "8.x",
+    "@blumoon/eslint-config-blumoon": "*"
+  },
+  "scripts": {
+    "test": "lab -v -L -a @hapi/code",
+    "prepublishOnly": "npm run test"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "index.js",
+  "author": "Blumoon Technologies Private Corp.",
+  "license": "UNLICENSED",
+  "description": "Server description here",
+  "private": true
+}
