@@ -22,3 +22,5 @@ nodemon .
 
 ### Deployment
 Includes `ebs/.ebextensions` for AWS Elastic Beanstalk archives
+
+Remove `private: true` on `package.json` to publish.
