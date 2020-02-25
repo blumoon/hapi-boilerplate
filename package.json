@@ -5,6 +5,7 @@
     "@hapi/crumb": "8.x",
     "@hapi/hapi": "19.x",
     "@hapi/boom": "9.x",
+    "@hapi/hoek": "9.x",
     "@hapi/joi": "17.x",
     "@hapi/good": "9.x",
     "@hapi/good-squeeze": "6.x",
