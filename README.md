@@ -5,6 +5,8 @@
 Server description here
 
 ### Development
+Fix the package name first before installing dependencies.
+
 Put sensitive dev keys and local configs to `/config.json` which is merged inside `/config.js`. All keys must be on first level.
 ```json
 {
