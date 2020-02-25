@@ -1,5 +1,5 @@
 {
-  "name": "@x0/blumoon-",
+  "name": "@blumoon/",
   "version": "0.0.1-dev",
   "dependencies": {
     "@hapi/crumb": "8.x",
